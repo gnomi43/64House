@@ -1,0 +1,53 @@
+@import "normalize.scss";
+@import "__fonts.scss";
+
+// === Mixins ===
+@mixin  font-cabana {
+    font-family: "Cabana", "Arial", sans-serif;
+}
+
+@mixin  font-roboto {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+// ===/ Mixins ===
+
+// ===Variables ===
+
+$main-color: #dcd6d1;
+$secondary-color: #555c54;
+$fonts-color: #333333;
+
+$width-s: 577px;  
+$width-m: 769px; 
+$width-l: 993px;  
+$width-xl: 1201px;
+
+$width-s-max: 576px;     
+$width-m-max: 768px;      
+$width-l-max: 992px;      
+$width-xl-max: 1200px;     
+
+// ===/Variables ===
+
+body{
+    margin: 0;
+    padding: 0; 
+
+    background: $main-color;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+
+}
